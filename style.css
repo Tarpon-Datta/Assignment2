@@ -90,8 +90,8 @@ nav ul li{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 15px;
-    padding: 50px 50px;
-    width: 1000px;
+     padding: 50px 50px;
+    width: 1000px; 
 }
 .see-more{
     font-family: 'Roboto Condensed', sans-serif;
@@ -143,4 +143,20 @@ nav ul li{
 }
 .icon{
     margin: 0 10px;
+}
+
+
+
+/* ................media query............
+.......................................... */
+
+/* mobile devices */
+
+@media only screen and (max-width:688px) {
+   
+    /* .second-section{
+        grid-template: (1,1fr);
+        margin: 0;
+        background-color: aqua;
+    } */
 }
