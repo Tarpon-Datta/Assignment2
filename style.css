@@ -150,13 +150,88 @@ nav ul li{
 /* ................media query............
 .......................................... */
 
-/* mobile devices */
+/* mobile device */
 
 @media only screen and (max-width:688px) {
-   
-    /* .second-section{
-        grid-template: (1,1fr);
-        margin: 0;
-        background-color: aqua;
-    } */
+    .header{
+        grid-template-columns: repeat(1,1fr);
+    }
+     nav>ul{
+         display:flex;
+         margin: 0 0;
+     }
+     nav ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-right:1em;
 }
+    .paragraph-start-journey{
+        width: 280px;
+    }
+    .button{
+        margin-top: 100px;
+    }
+   .first-section{
+        display: block;
+   }
+    .second-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .box{
+        margin-left: 0;
+    }
+    .trying-animation{
+        display: block;
+    }
+    .headphone img{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    }
+    .headphone-landing {
+    margin-top:10px;
+    margin-left:0px;
+    }
+}
+
+/* ................media query............
+.......................................... */
+
+/* ipad devices */
+
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .header{
+        grid-template-columns: repeat(2,1fr);
+    }
+     nav>ul{
+         display:flex;
+         margin: 20px 0;
+     }
+    nav ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-right:1em;
+}
+    .paragraph-start-journey{
+        width: 280px;
+    }
+    .button{
+        margin-top: 100px;
+    }
+    .second-section{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .box{
+        margin-left: 0;
+    }
+    .headphone img{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    }
+    .headphone-landing {
+    margin-top:150px;
+    margin-left:10px;
+    }
+}
+
